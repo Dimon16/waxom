@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: url(../img/photo.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo__text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+}
+
+.logo__img__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav > a {
+  text-decoration: none;
+}
+
+.nav > a > li {
+  color: #ffffff;
+  list-style-type: none;
+  padding: 0 15px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.nav > a > li:hover {
+  color: #948d8d;
+}
+
+.head__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo__text__center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.subtitle {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.title {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.title_text {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.title_button {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title_button a {
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: #998675;
+  padding: 21px 37px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 5px solid #736357;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.title_button a:hover {
+  background-color: #736357;
+}
+
+.promo {
+  height: 375px;
+}
+
+.promo_aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.promo_aside .promo_card {
+  padding: 0 10px;
+}
+
+.promo_aside .promo_card h2 {
+  font-size: 22px;
+}
+
+.promo_aside .promo_card .promo_figure {
+  width: 70px;
+  height: 3px;
+  background-color: #736357;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+/*# sourceMappingURL=style.css.map */
